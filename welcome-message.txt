@@ -1,0 +1,9 @@
+# Simple development environment template
+
+## Enter development shell
+```sh
+$ nix develop
+```
+
+If you are using direnv, you can automatically enter the development shell by preparing a `.envrc` that contains `use flake` and running `direnv allow`.
+
